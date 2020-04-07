@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+
+	<title>Travel slider</title>
+</head>
+
+<body>
+	<button type="button" class="button restart-button">Restart</button>
+	<div class="main-carousel">
+		<div class="carousel-cell" id="losangeles" style="background-image:url(images/los_angeles.jpg)">
+			<div class="container">
+				<p class="carousel-cell-text">Los Angeles</p>
+			</div>
+		</div>
+		<div class="carousel-cell" id="moscow" style="background-image:url(images/moscow.jpg)">
+			<div class="container">
+				<p class="carousel-cell-text">Moscow</p>
+			</div>
+		</div>
+		<div class="carousel-cell" id="sydney" style="background-image:url(images/sydney.jpg)">
+			<div class="container">
+				<p class="carousel-cell-text">Sydney</p>
+			</div>
+		</div>
+		<div class="carousel-cell" id="london" style="background-image:url(images/london.jpg)">
+			<div class="container">
+				<p class="carousel-cell-text">London</p>
+			</div>
+		</div>
+		<div class="carousel-cell start" id="tokyo" style="background-image:url(images/tokyo.jpg)">
+			<div class="container">
+				<p class="carousel-cell-text">Tokyo</p>
+			</div>
+		</div>
+	</div>
+	<div class="progress-bar"></div>
+
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="vendor/hash.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
