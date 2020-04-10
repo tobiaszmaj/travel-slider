@@ -20,7 +20,7 @@
     "watch:sassprefixer": "onchange -d 100 css/style.css --node-sass --output-style expanded --source-map true -o css sass && autoprefixer-cli -o css/style.prefixed.css css/style.css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tobiasz Maj",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
