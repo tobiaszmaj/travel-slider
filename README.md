@@ -1,7 +1,13 @@
-# individual-project
-https://tobiaszmaj.github.io/travel-slider <br>
-Used technologies: HTML, CSS/SASS, JavaScript, RWD, Flexbox, NPM. <br>
-Used JS plugins: <br>
-- Flickity - carousel <br>
-- Mustache - template <br>
-- Google Maps - Google API Console <br>
+# Travel Slider
+
+### See [DEMO](https://tobiaszmaj.github.io/travel-slider/)
+
+![Preview](preview.jpg)
+
+## What I used?
+* HTML5
+* [Sass](https://sass-lang.com/)
+* JavaScript
+* [Flickity](https://flickity.metafizzy.co/)
+* [mustache](http://mustache.github.io/)
+* [Google Maps API](https://developers.google.com/maps/documentation)
